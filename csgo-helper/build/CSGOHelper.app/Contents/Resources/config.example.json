@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "sensitivity": 2.5,
+  "mYaw": 0.022,
+  "mPitch": 0.022,
+  "requestPermissionsOnStart": true,
+  "showMenuBarItem": true,
+  "recoil": {
+    "enabled": true,
+    "weapon": "ak47",
+    "intensity": 1.0,
+    "holdThresholdMs": 120,
+    "semiAutoShotDelayMs": 18,
+    "burstResetMs": 420,
+    "maxCountsPerTick": 260,
+    "patternTimeScale": 1.0,
+    "compensateDuringFeedback": false
+  },
+  "snapTap": {
+    "enabled": true,
+    "socdEnabled": true,
+    "brakeTapEnabled": true,
+    "holdMs": 22,
+    "cooldownMs": 65,
+    "leftKeyCode": 0,
+    "rightKeyCode": 2,
+    "requirePhysicalEvent": true
+  },
+  "bunnyHop": {
+    "enabled": true,
+    "mode": "spam",
+    "tickRate": 128,
+    "startDelayMs": 60,
+    "pressHoldMs": 8,
+    "pulseIntervalTicks": 2,
+    "predictiveAirtimeMs": 760,
+    "predictiveWindowMs": 180,
+    "maxContinuousHoldMs": 8000
+  },
+  "hotkeys": {
+    "toggleAll": "shift+i",
+    "recoil": "shift+1",
+    "snapTap": "shift+2",
+    "bunnyHop": "shift+3",
+    "nextWeapon": "shift+]",
+    "previousWeapon": "shift+[",
+    "echoStatus": "shift+0"
+  },
+  "feedback": {
+    "enabled": true,
+    "consoleEcho": true,
+    "openConsole": true,
+    "closeConsoleAfterMs": 900,
+    "textMode": "keycode",
+    "typeDelayMs": 9,
+    "openDelayMs": 120,
+    "consoleKeyCode": 50,
+    "returnKeyCode": 36
+  },
+  "focus": {
+    "requireGameFocus": true,
+    "gameBundleIdentifiers": [
+      "com.valvesoftware.csgo"
+    ],
+    "gameProcessNames": [
+      "csgo_osx64",
+      "csgo"
+    ],
+    "gameWindowTitles": [
+      "Counter-Strike: Global Offensive",
+      "CS:GO"
+    ],
+    "pollIntervalMs": 500,
+    "releaseKeysOnFocusLoss": true
+  },
+  "logging": {
+    "level": "info",
+    "file": "~/Library/Logs/CSGOHelper/helper.log",
+    "console": false,
+    "maxFileBytes": 2000000,
+    "dryRun": false
+  }
+}
